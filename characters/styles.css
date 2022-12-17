@@ -1,0 +1,107 @@
+			* {
+				box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+			}
+
+			body 
+      {
+
+        padding: 2.5rem 2rem;
+padding-top: 2.5rem 2rem;
+        align-items: center;
+        justify-content: center;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+       'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			}
+
+			.card {
+				border-radius: 16px;
+				width: 561px;
+				height: 297px;
+				margin-bottom: 2rem;
+      }
+
+      #viking
+      {
+background-image: url("images/characters/bg-elephant.jpg");
+font-size: 18px;
+font-weight: 700;
+text-align: center;
+      }
+
+#viking h2
+{
+  padding-top: 5rem;
+}
+
+#viking .stats
+{
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+#sorceress
+{
+  background-image: url("images/characters/bg-cat.jpg");
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+#sorceress h2
+{
+  padding-top: 5rem;
+}
+
+#sorceress .stats
+{
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+
+#fashionista
+{
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  background-image: url("images/characters/bg-bunny.jpg");
+}
+
+#fashionista h2
+{
+  padding-top: 5rem;
+}
+
+
+#fashionista .stats
+{
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+
+
+      ul{
+        list-style: none;
+        justify-content: center;
+      }
+
+
+      .stats
+      {
+        margin-bottom: 1rem;
+        display: flex;
+      }
+      .stats li {
+        min-width: 5rem;
+      }
+      .stats li h3 {
+        font-size: .99rem;
+      }
+      .stats li h4 {
+        font-size: .75rem;
+      }
+      
